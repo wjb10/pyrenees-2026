@@ -243,7 +243,14 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-/* ---------- data ---------- */
+/* =====================================================================
+   EDIT THE PLAN HERE. Three lists below control everything:
+     BASES  = where we sleep (town, dates, hotel)
+     DAYS   = the day-by-day cards (drive / do / eat / trail)
+     SIGHTS = the pins on the map (name, lat, lon, type, note)
+   Copy an existing entry, change the text, keep the commas + brackets.
+   Google Maps links auto-generate from names. See README.md.
+   ===================================================================== */
 const BASES = [
   {n:1, town:"Bagnères-de-Luchon", when:"27–28 Jun", nights:"Night 1 · arrival", lat:42.7906, lon:0.5934,
    blurb:"Gateway base, ~1h50 from the airport, so a late-arrival evening is just a short drive and dinner. Belle Époque spa town; Lac d'Oô and the Peyresourde crêperie are close if you land early.",
